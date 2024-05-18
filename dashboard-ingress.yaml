@@ -6,4 +6,8 @@ metadata:
 spec:
   rules:
   - host: dashboard.com
+    http: 
+      parths: 
+      - backend:
+          serviceName:
   
